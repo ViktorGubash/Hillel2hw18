@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title class="text-white">Film info</title>
+   <link rel="stylesheet" href="bootstrap.min.css">
+   <link rel="stylesheet" href="styleApi.css">
+   <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+   <script src="appApi.js"></script>
+</head>
+
+<body>
+   <nav class="navbar navbar-expand-lg color-1">
+      <div class="container-fluid">
+         <div class="navbar-header">
+            <a class="navbar-brand text-white distance" href="index.html">Film info</a>
+            <ul class="list-unstyled listzz">
+               <li><a class="navbar-brand text-white" href="index.html">Home</a></li>
+               <li><a class="navbar-brand text-white" href="#">Films</a></li>
+               <li><a class="navbar-brand text-white" href="#">Movies</a></li>
+            </ul>
+            <input type="text" placeholder="Search" class="aninput">
+            <a href="#" class="button3 navbar-brand text-white">Sign in</a>
+            <a href="#" class="btn btn-primary button4">Sign up</a>
+            
+         </div>
+      </div>
+   </nav>
+   <br>
+   <hr>
+   <br>
+   <div class="container color-1">
+      <div id="movie" class="well"></div>
+   </div>
+   <script>
+      getMovie();
+   </script>
+
+</body>
+
+</html>

@@ -1,0 +1,106 @@
+*{
+   background: rgb(1,50,87);
+   background: linear-gradient(90deg, rgba(1,50,87,1) 0%, rgba(2,19,55,1) 100%);
+}
+
+.container{
+   width: 100%;
+}
+
+#movies img{
+   width: 70%;
+}
+#movie img{
+   width: 100%;
+}
+
+nav{
+   width: 1372px;
+   height: 49px;
+   top: 18px;
+   left: 81px;
+
+}
+.distance{
+   width: 75px;
+   height: 29px;
+   top: 27px;
+   left: 81px;
+
+}
+.listzz{
+   width: 225px;
+   height: 24px;
+   top: 32px;
+   left: 254px;
+   display: inline;
+}
+
+.color-1{
+   background: rgb(1,50,87);
+   background: linear-gradient(90deg, rgba(1,50,87,1) 0%, rgba(2,19,55,1) 100%);
+}
+
+.button1{
+   width: 272px;
+   height: 80px;
+   border-radius: 44px;
+   font-weight: 500px;
+   font-size: 24px;
+}
+
+.button2{
+   width: 272px;
+   height: 80px;
+   border-radius: 44px;
+   font-weight: 500px;
+   font-size: 24px;
+}
+
+.buton3{
+   width: 137p;
+   height: 49px;
+   top: 18px;
+   left: 1155px;
+   padding: 10px 0px 10px 4px;
+   border-radius: 12px;
+   gap: 10px;
+
+}
+
+.button4{
+   width: 140px;
+   height: 49px;
+   top: 18px;
+   left: 1313px;
+   padding: 10px;
+   border-radius: 12px;
+   gap: 10px;
+}
+
+.button-messenger{
+   width: 121px;
+   height: 57px;
+   border-radius: 38px;
+
+}
+
+.aninput{
+   width: 270px;
+   height: 49px;
+   top: 18px;
+   left: 885px;
+   border-radius: 46px;
+}
+
+#movies .col-lg-3 img{
+   margin: 20px;
+}
+@media (min-width: 960px){
+   #movies .col-lg-3 {
+         height: 90%;
+      }
+   #movies .col-lg-3 img {
+         height: 70%;
+   }
+}
